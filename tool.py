@@ -1,11 +1,13 @@
 #coding: utf-8
 from PIL import Image
+from PIL import ImageFile
 import shutil
 import os
 import sys
 import json
 from datetime import datetime
 #from ImageProcess import Graphics
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 class Graphics:  
     '''图片处理类
